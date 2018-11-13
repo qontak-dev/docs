@@ -1,6 +1,15 @@
 # Qontak.com Documentation Page
 
 ### Reports
+
+![Image of dashboard index](https://raw.githubusercontent.com/qontak-dev/docs/master/images/dashboards_index.png)
+
+Grafik reports pada Qontak ditampilkan pada laman https://www.qontak.com/dashboards. Pada bagian atas, terdapat filter bar untuk memilih parameter-parameter apa saja yang akan diterapkan pada grafik yang sedang ditampilkan.
+
+![Image of filter bar](https://raw.githubusercontent.com/qontak-dev/docs/master/images/filter_bar.png)
+
+Terdapat 4 pilihan parameter pada filter bar, yaitu Pipeline, Team, User, dan Time. Setelah memilih filter, klik tombol Submit untuk menerapkan filter pada grafik.
+
 ##### Deals by Source
 ##### Top 20 Customers
 ##### Sales Performance
