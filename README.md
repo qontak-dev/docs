@@ -6,11 +6,15 @@
 
 Grafik reports pada Qontak ditampilkan pada laman https://www.qontak.com/dashboards. Pada bagian atas, terdapat filter bar untuk memilih parameter-parameter apa saja yang akan diterapkan pada grafik yang sedang ditampilkan.
 
-![Image of filter bar](https://raw.githubusercontent.com/qontak-dev/docs/master/images/filter_bar.png)
+![Image of filter bar](https://raw.githubusercontent.com/qontak-dev/docs/master/images/filter_bar.gif)
 
 Terdapat 4 pilihan parameter pada filter bar, yaitu Pipeline, Team, User, dan Time. Setelah memilih filter, klik tombol Submit untuk menerapkan filter pada grafik.
 
-##### Deals by Source
+#### Sources
+Grafik Sources menampilkan data Contacts, Companies, dan Deals yang dikelompokkan berdasarkan Source/Sumber. Jika ada Contact, Company, atau Deal yang tidak memiliki Source, maka akan dikelompokkan sebagai "Undefined Source". Grafik Source untuk data Deals memiliki filter tambahan yaitu Stage.
+
+![Image of sources graph](https://raw.githubusercontent.com/qontak-dev/docs/master/images/graph_sources.gif)
+
 ##### Top 20 Customers
 ##### Sales Performance
 ##### Deals by Stage
