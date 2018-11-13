@@ -10,13 +10,15 @@ Grafik reports pada Qontak ditampilkan pada laman https://www.qontak.com/dashboa
 
 Terdapat 4 pilihan parameter pada filter bar, yaitu Pipeline, Team, User, dan Time. Setelah memilih filter, klik tombol Submit untuk menerapkan filter pada grafik.
 
-#### Sources
-Grafik Sources menampilkan data Contacts, Companies, dan Deals yang dikelompokkan berdasarkan Source/Sumber. Jika ada Contact, Company, atau Deal yang tidak memiliki Source, maka akan dikelompokkan sebagai "Undefined Source". Grafik Source untuk data Deals memiliki filter tambahan yaitu Stage.
+### Sales Performance
+Grafik Sales Performance menampilkan data Deals yang dikelompokkan berdasarkan periode yang terpilih. Grafik yang ditampilkan berbentuk line. Jika salah satu kelompok dari line di-hover, muncul informasi total besarnya deal dalam satu periode. Total besar deal dikonversikan ke mata uang default yang dipilih user.
+![Image of filter bar](https://raw.githubusercontent.com/qontak-dev/docs/master/images/graph_sales_performance.gif)
 
+### Sources
+Grafik Sources yang menampilkan data Contacts, Companies, dan Deals yang dikelompokkan berdasarkan Source/Sumber. Grafik yang ditampilkan berbentuk pie. Jika ada Contact, Company, atau Deal yang tidak memiliki Source, maka akan dikelompokkan sebagai "Undefined Source". Grafik Source untuk data Deals memiliki filter tambahan yaitu Stage. Jika salah satu kelompok dari pie di-hover, muncul informasi jumlah item dan persentase-nya terhadap keseluruhan grafik.
 ![Image of sources graph](https://raw.githubusercontent.com/qontak-dev/docs/master/images/graph_sources.gif)
 
 ##### Top 20 Customers
-##### Sales Performance
 ##### Deals by Stage
 ##### Deals Won
 ##### Summary Report
