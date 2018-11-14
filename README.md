@@ -40,8 +40,14 @@ Jika salah satu titik dari grafik di-hover, muncul informasi nama user, periode,
 
 ![Image of sources graph](https://raw.githubusercontent.com/qontak-dev/docs/master/images/graph_deals_won.gif)
 
+## Summary Report
+Summary Report menampilkan perubahan-perubahan yang dilakukan oleh User atau Team yang terpilih. Perubahan-perubahan yang dicatat adalah Create (pembuatan), Update (pembaruan), dan Delete (penghapusan). Item-item yang akan tercatat perubahannya adalah User, Deal, Task, Company, Contact, Note, Meeting, Ticket, Pipeline, Target, Email, Properties, Product, dan Stage.
+
+Item-item pada Summary Report diurutkan berdasarkan waktu pencatatan perubahan. Item-item yang tampil dibatasi 100 item terakhir. Jika salah satu baris memiliki informasi yang terlalu panjang sehingga terpotong, maka baris tersebut dapat di-hover untuk memunculkan informasi lengkapnya.
+
+![Image of sources graph](https://raw.githubusercontent.com/qontak-dev/docs/master/images/graph_summary_report.gif)
+
 ##### Top 20 Customers
-##### Summary Report
 ##### Deals Closed by User (Leaderboard)
 ##### Targets by Month by Value
 ##### GPS Checkin
