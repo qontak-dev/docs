@@ -53,7 +53,7 @@ Grafik Targets by Month by Value menampilkan grafik yang berisi perbandingan ant
 
 Grafik yang ditampilkan berbentuk bar. Jika salah satu bar di-hover, akan muncul informasi persentase bar tersebut dan besaran Deal yang terasosiasi dengan bar tersebut.
 
-Besaran Deal yang terhitung mengacu pada waktu di mana Deal tersebut dipindah ke stage Won. Contoh: Deal 1 dibuat pada tanggal 9 November 2018 lalu diubah ke stage Won pada tanggal 14 Nov 2018, maka Deal tersebut akan masuk ke total besaran deal untuk periode tanggal 14 Nov 2018.
+Besaran Deal yang terhitung mengacu pada waktu di mana Deal tersebut dipindah ke stage Won. Contoh: Deal 1 dibuat pada tanggal 9 September 2018 lalu diubah ke stage Won pada tanggal 14 Nov 2018, maka Deal tersebut akan masuk ke total besaran deal untuk periode tanggal Nov 2018.
 
 Mata uang yang ditampilkan adalah mata uang default yang dipilih User sehingga bila ada Deal dengan mata uang selain mata uang default, besaran deal akan dikonversi.
 
@@ -90,3 +90,15 @@ Grafik Tasks by Status menampilkan data Tasks yang dikelompokkan berdasarkan Use
 Jika salah satu kelompok dari bar di-hover, muncul informasi cacah item dan nama Status dari Task tersebut. Salah satu Status dapat dimunculkan dan disembunyikan dengan klik nama Status di bagian bawah grafik.
 
 ![Image of sources graph](https://raw.githubusercontent.com/qontak-dev/docs/master/images/graph_tasks_by_status.gif)
+
+## Achievements by User by Time
+
+Grafik Achievements by User by Time menampilkan data Deals yang dikelompokkan berdasarkan bulan pada tahun ini ditambah prakiraan 6 bulan tahun berikutnya. Grafik yang ditampilkan berbentuk bar. Grafik ini membandingkan besaran Deal yang berada di stage Won dengan Targets.
+
+Besaran Deal yang terhitung mengacu pada waktu di mana Deal tersebut dipindah ke stage Won. Contoh: Deal 1 dibuat pada tanggal 9 September 2018 lalu diubah ke stage Won pada tanggal 14 Nov 2018, maka Deal tersebut akan masuk ke total besaran deal untuk periode Nov 2018.
+
+Pada bagian forecast, data Deal yang ditampilkan pada grafik adalah Deal yang memiliki Close Date (Tanggal Berakhir) di tahun berikutnya.
+
+Jika salah satu kelompok dari bar sebelah kiri di-hover, muncul informasi persentase perbandingan besaran Deal dengan Target. Jika bar pada bagian forecast di-hover, akan muncul informasi besaran Deal yang terkelompokkan berdasarkan Stage.
+
+![Image of sources graph](https://raw.githubusercontent.com/qontak-dev/docs/master/images/graph_achievements_by_user_by_time.gif)
