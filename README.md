@@ -16,15 +16,6 @@ Jika salah satu kelompok dari line di-hover, muncul informasi total besarnya Dea
 
 ![Image of filter bar](https://raw.githubusercontent.com/qontak-dev/docs/master/images/graph_sales_performance.gif)
 
-## Sources
-Grafik Sources menampilkan data Contacts, Companies, dan Deals yang dikelompokkan berdasarkan Source/Sumber. Grafik yang ditampilkan berbentuk pie. Jika ada Contact, Company, atau Deal yang tidak memiliki Source, maka akan dikelompokkan sebagai "Undefined Source". 
-
-Grafik Source untuk data Deals memiliki filter tambahan yaitu Stage.
-
-Jika salah satu kelompok dari pie di-hover, muncul informasi jumlah item dan persentase-nya terhadap keseluruhan grafik.
-
-![Image of sources graph](https://raw.githubusercontent.com/qontak-dev/docs/master/images/graph_sources.gif)
-
 ## Deals by Stage
 Grafik Deals by Stage menampilkan data Deals yang dikelompokkan berdasarkan Stage. Grafik yang ditampilkan berbentuk corong. 
 
@@ -74,10 +65,28 @@ GPS Check In menampilkan peta Google Maps yang menunjukkan lokasi Check In dari 
 
 ![Image of sources graph](https://raw.githubusercontent.com/qontak-dev/docs/master/images/graph_gps_checkin.gif)
 
+## Sources
+Grafik Sources menampilkan data Contacts, Companies, dan Deals yang dikelompokkan berdasarkan Source/Sumber. Grafik yang ditampilkan berbentuk pie. Jika ada Contact, Company, atau Deal yang tidak memiliki Source, maka akan dikelompokkan sebagai "Undefined Source". 
+
+Grafik Source untuk data Deals memiliki filter tambahan yaitu Stage.
+
+Jika salah satu kelompok dari pie di-hover, muncul informasi cacah item dan persentase-nya terhadap keseluruhan grafik.
+
+![Image of sources graph](https://raw.githubusercontent.com/qontak-dev/docs/master/images/graph_sources.gif)
+
 ## Lost Reasons
 
 Grafik Lost Reasons menampilkan data Deals yang dikelompokkan berdasarkan Lost Reason. Grafik yang ditampilkan berbentuk pie. Jika ada Deal yang tidak memiliki Lost Reason, maka akan dikelompokkan sebagai "Undefined Lost Reason". Deal yang masuk ke grafik ini adalah Deal yang berada di stage Lost.
 
-Jika salah satu kelompok dari pie di-hover, muncul informasi jumlah item dan persentase-nya terhadap keseluruhan grafik.
+Jika salah satu kelompok dari pie di-hover, muncul informasi cacah item dan persentase-nya terhadap keseluruhan grafik.
 
 ![Image of sources graph](https://raw.githubusercontent.com/qontak-dev/docs/master/images/graph_lost_reason.gif)
+
+
+## Tasks by Status
+
+Grafik Tasks by Status menampilkan data Tasks yang dikelompokkan berdasarkan User dan Status dari Task. Grafik yang ditampilkan berbentuk bar. Grafik ini memiliki filter tambahan yaitu Categories.
+
+Jika salah satu kelompok dari bar di-hover, muncul informasi cacah item dan nama Status dari Task tersebut. Salah satu Status dapat dimunculkan dan disembunyikan dengan klik nama Status di bagian bawah grafik.
+
+![Image of sources graph](https://raw.githubusercontent.com/qontak-dev/docs/master/images/graph_tasks_by_status.gif)
