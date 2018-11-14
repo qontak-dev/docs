@@ -6,7 +6,8 @@ Grafik reports pada Qontak ditampilkan pada laman https://www.qontak.com/dashboa
 
 ![Image of filter bar](https://raw.githubusercontent.com/qontak-dev/docs/master/images/filter_bar.gif)
 
-Terdapat 4 pilihan parameter pada filter bar, yaitu Pipeline, Team, User, dan Time. Setelah memilih filter, klik tombol Submit untuk menerapkan filter pada grafik. Kemunculan suatu item pada grafik mengacu pada waktu dibuatnya item pada grafik tersebut, kecuali disebutkan acuan lain. Contoh : Deal 1 dibuat pada tanggal 14 Nov 2018, maka Deal 1 akan ditampilkan pada grafik untuk periode tanggal 14 Nov 2018.
+Terdapat 4 pilihan parameter pada filter bar, yaitu Pipeline, Team, User, dan Time. Setelah memilih filter, klik tombol Submit untuk menerapkan filter pada grafik.
+Kemunculan suatu item pada grafik mengacu pada waktu dibuatnya item pada grafik tersebut, kecuali disebutkan acuan lain. Contoh : Deal 1 dibuat pada tanggal 14 Nov 2018, maka Deal 1 akan ditampilkan pada grafik untuk periode tanggal 14 Nov 2018.
 
 ## Sales Performance
 Grafik Sales Performance menampilkan data Deals yang dikelompokkan berdasarkan periode yang terpilih. Grafik yang ditampilkan berbentuk line. Periode grafik ini tidak mengikuti filter waktu pada filter bar, namun memiliki periode khusus yaitu Daily (harian), Weekly (mingguan), dan Monthly (Bulanan).
@@ -73,35 +74,10 @@ GPS Check In menampilkan peta Google Maps yang menunjukkan lokasi Check In dari 
 
 ![Image of sources graph](https://raw.githubusercontent.com/qontak-dev/docs/master/images/graph_gps_checkin.gif)
 
-##### Top 20 Customers
-##### Tasks by Status
-##### Revenues by Time
-##### User Traction by Time
-##### Funding Status by Time
-##### Yearly Sales Comparison
-##### Top Companies
-##### Top Products
-##### Targets by Month
-##### Achievement by User by Time
-##### Activities by User by Time
-##### Deals by Stage by Time
-##### Tasks
-##### Customer Geolocation Map
-##### Sales Representatives KPIs
-##### Lead Converter
-##### Project Manager
-##### Drafter
-##### Estimators
-##### Designers
-##### Mortgage Targets by Month
-##### Deals by Stage by User
-##### Deals Won by User
-##### Win Rate
-##### Sales Activity by User
-##### User Targets
-##### Product Sales Trends
-##### Customer Sales Trends
-##### Targets by Month by Count
-##### New Contacts and Companies Created by Source
-##### No. of Vehicles Targets
-##### Customer Service
+## Lost Reasons
+
+Grafik Lost Reasons menampilkan data Deals yang dikelompokkan berdasarkan Lost Reason. Grafik yang ditampilkan berbentuk pie. Jika ada Deal yang tidak memiliki Lost Reason, maka akan dikelompokkan sebagai "Undefined Lost Reason". Deal yang masuk ke grafik ini adalah Deal yang berada di stage Lost.
+
+Jika salah satu kelompok dari pie di-hover, muncul informasi jumlah item dan persentase-nya terhadap keseluruhan grafik.
+
+![Image of sources graph](https://raw.githubusercontent.com/qontak-dev/docs/master/images/graph_lost_reason.gif)
