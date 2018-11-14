@@ -32,7 +32,7 @@ Jika salah satu kelompok dari grafik di-hover, muncul informasi cacah Deal, tota
 ![Image of sources graph](https://raw.githubusercontent.com/qontak-dev/docs/master/images/graph_deals_by_stage.gif)
 
 ## Deals Won
-Grafik Deals Won menampilkan data Deals yang dikelompokkan berdasarkan User dan periodenya. Grafik yang ditampilkan berbentuk line. Data Deals yang masuk ke grafik ini hanya yang berada pada stage Won. Periode grafik ini tidak mengikuti filter waktu pada filter bar, namun memiliki periode sendiri yaitu Daily (harian), Weekly (mingguan), dan Monthly (Bulanan).
+Grafik Deals Won menampilkan data Deals yang dikelompokkan berdasarkan User pembuat Deal dan periodenya. Grafik yang ditampilkan berbentuk line. Data Deals yang masuk ke grafik ini hanya yang berada pada stage Won. Periode grafik ini tidak mengikuti filter waktu pada filter bar, namun memiliki periode sendiri yaitu Daily (harian), Weekly (mingguan), dan Monthly (Bulanan).
 
 Kemunculan item pada grafik ini mengacu pada waktu di mana Deal tersebut dipindah ke stage Won. Contoh: Deal 1 dibuat pada tanggal 9 November 2018 lalu diubah ke stage Won pada tanggal 14 Nov 2018, maka Deal tersebut akan ditampilkan pada grafik untuk periode tanggal 14 Nov 2018.
 
@@ -48,17 +48,26 @@ Item-item pada Summary Report diurutkan berdasarkan waktu pencatatan perubahan. 
 ![Image of sources graph](https://raw.githubusercontent.com/qontak-dev/docs/master/images/graph_summary_report.gif)
 
 ## Deals Closed by User (Leaderboard)
-Deals Closed by User menampilkan User dengan peringkat 3 teratas dan 3 terbawah dalam perolehan total besaran Deal dalam periode yang terpilih. Deal yang akan terhitung besarnya adalah yang telah ada dalam stage Won.
+Grafik Deals Closed by User menampilkan User dengan peringkat 3 teratas dan 3 terbawah dalam perolehan total besaran Deal dalam periode yang terpilih. Deal yang akan terhitung besarnya adalah yang telah ada dalam stage Won.
+
+Besaran Deal yang terhitung mengacu pada waktu di mana Deal tersebut dipindah ke stage Won. Contoh: Deal 1 dibuat pada tanggal 9 November 2018 lalu diubah ke stage Won pada tanggal 14 Nov 2018, maka Deal tersebut akan masuk ke total besaran deal untuk periode tanggal 14 Nov 2018.
+
+Mata uang yang ditampilkan adalah mata uang default yang dipilih User sehingga bila ada Deal dengan mata uang selain mata uang default, besaran deal akan dikonversi sebelum dijumlahkan.
+
+![Image of sources graph](https://raw.githubusercontent.com/qontak-dev/docs/master/images/graph_leaderboard.gif)
+
+## Targets by Month by Value
+Grafik Targets by Month by Value menampilkan grafik yang berisi perbandingan antara jumlah besaran Deal yang sudah dalam stage Won dengan target besaran Deal pada bulan yang terpilih dan dikelompokkan berdasarkan User pembuat Deal. Periode grafik ini tidak mengikuti filter waktu pada filter bar, namun memiliki periode khusus yaitu bulan-bulan pada tahun ini.
+
+Grafik yang ditampilkan berbentuk bar. Jika salah satu bar di-hover, akan muncul informasi persentase bar tersebut dan besaran Deal yang terasosiasi dengan bar tersebut.
 
 Besaran Deal yang terhitung mengacu pada waktu di mana Deal tersebut dipindah ke stage Won. Contoh: Deal 1 dibuat pada tanggal 9 November 2018 lalu diubah ke stage Won pada tanggal 14 Nov 2018, maka Deal tersebut akan masuk ke total besaran deal untuk periode tanggal 14 Nov 2018.
 
 Mata uang yang ditampilkan adalah mata uang default yang dipilih User sehingga bila ada Deal dengan mata uang selain mata uang default, besaran deal akan dikonversi.
 
-![Image of sources graph](https://raw.githubusercontent.com/qontak-dev/docs/master/images/graph_leaderboard.gif)
+![Image of sources graph](https://raw.githubusercontent.com/qontak-dev/docs/master/images/graph_target_by_month_by_value.gif)
 
 ##### Top 20 Customers
-##### Deals Closed by User (Leaderboard)
-##### Targets by Month by Value
 ##### GPS Checkin
 ##### Tasks by Status
 ##### Revenues by Time
