@@ -47,12 +47,19 @@ Item-item pada Summary Report diurutkan berdasarkan waktu pencatatan perubahan. 
 
 ![Image of sources graph](https://raw.githubusercontent.com/qontak-dev/docs/master/images/graph_summary_report.gif)
 
+## Deals Closed by User (Leaderboard)
+Deals Closed by User menampilkan User dengan peringkat 3 teratas dan 3 terbawah dalam perolehan total besaran Deal dalam periode yang terpilih. Deal yang akan terhitung besarnya adalah yang telah ada dalam stage Won.
+
+Besaran Deal yang terhitung mengacu pada waktu di mana Deal tersebut dipindah ke stage Won. Contoh: Deal 1 dibuat pada tanggal 9 November 2018 lalu diubah ke stage Won pada tanggal 14 Nov 2018, maka Deal tersebut akan masuk ke total besaran deal untuk periode tanggal 14 Nov 2018.
+
+Mata uang yang ditampilkan adalah mata uang default yang dipilih User sehingga bila ada Deal dengan mata uang selain mata uang default, besaran deal akan dikonversi.
+
+![Image of sources graph](https://raw.githubusercontent.com/qontak-dev/docs/master/images/graph_leaderboard.gif)
+
 ##### Top 20 Customers
 ##### Deals Closed by User (Leaderboard)
 ##### Targets by Month by Value
 ##### GPS Checkin
-##### Sources
-##### Lost Reasons
 ##### Tasks by Status
 ##### Revenues by Time
 ##### User Traction by Time
