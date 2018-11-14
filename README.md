@@ -67,8 +67,13 @@ Mata uang yang ditampilkan adalah mata uang default yang dipilih User sehingga b
 
 ![Image of sources graph](https://raw.githubusercontent.com/qontak-dev/docs/master/images/graph_target_by_month_by_value.gif)
 
+## GPS Check In
+
+GPS Check In menampilkan peta Google Maps yang menunjukkan lokasi Check In dari User yang terpilih dalam periode waktu tertentu. Lokasi Check In dapat di-klik untuk menampilkan nama User, alamat lokasi check in, dan waktu check in. Berbeda dari grafik lainnya, lokasi check in yang ditampilkan adalah untuk semua pipeline, bukan pipeline yang terpilih di filter bar.
+
+![Image of sources graph](https://raw.githubusercontent.com/qontak-dev/docs/master/images/graph_gps_checkin.gif)
+
 ##### Top 20 Customers
-##### GPS Checkin
 ##### Tasks by Status
 ##### Revenues by Time
 ##### User Traction by Time
