@@ -125,4 +125,12 @@ Graph Customer Sales Trends menampilkan data besaran Deal yang memiliki asosiasi
 
 Jika salah satu bar pada graph ini di-hover, akan tampil informasi periode dan total besaran Deal yang terasoiasi pada periode tersebut.
 
-![Image of customer geolocation map graph](https://raw.githubusercontent.com/qontak-dev/docs/master/images/graph_customer_sales_trends.gif)
+![Image of customer sales trends graph](https://raw.githubusercontent.com/qontak-dev/docs/master/images/graph_customer_sales_trends.gif)
+
+## Ticketing
+
+Ticketing menampilkan data Ticketing dalam bentuk tabel. Informasi Ticket yang ditampilkan adalah Subject, Item yang terasosiasi dengan Ticket tersebut, Type, Priority, Status, dan Owner dari Ticket.
+
+Data Ticket ditampilkan dalam bentuk tabel dan terbagi 5 Ticket per halaman tabel. Terdapat filter tambahan pada Ticketing yaitu Type, Priority, dan Status.
+
+![Image of ticketing graph](https://raw.githubusercontent.com/qontak-dev/docs/master/images/graph_ticketing.gif)
