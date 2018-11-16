@@ -131,6 +131,6 @@ Jika salah satu bar pada graph ini di-hover, akan tampil informasi periode dan t
 
 Ticketing menampilkan data Ticketing dalam bentuk tabel. Informasi Ticket yang ditampilkan adalah Subject, Item yang terasosiasi dengan Ticket tersebut, Type, Priority, Status, dan Owner dari Ticket.
 
-Data Ticket ditampilkan dalam bentuk tabel dan terbagi 5 Ticket per halaman tabel. Terdapat filter tambahan pada Ticketing yaitu Type, Priority, dan Status.
+Data Ticket ditampilkan dalam bentuk tabel dan terbagi 5 Ticket per halaman tabel. Terdapat filter tambahan pada Ticketing yaitu Type, Priority, dan Status. Ikon item yang terasosiasi pada suatu Ticket dapat di-klik untuk menuju ke halaman item tersebut.
 
 ![Image of ticketing graph](https://raw.githubusercontent.com/qontak-dev/docs/master/images/graph_ticketing.gif)
