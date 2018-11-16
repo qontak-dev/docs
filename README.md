@@ -117,3 +117,12 @@ Graph Customer Geolocation Map menampilkan peta Google Maps dengan tambahan ikon
 Ikon untuk Company berwarna jingga sedangkan ikon untuk Contact berwarna biru. Jika ikon di-klik, akan tampil nama item, alamat, situs web, nomor telepon, rata-rata besaran Deal, besaran Deal terkecil, besaran Deal terbesar, dan tanggal dibuatnya item tersebut. Terdapat filter tambahan pada graph ini sesuai seperti informasi yang tampil pada saat ikon di-klik.
 
 ![Image of customer geolocation map graph](https://raw.githubusercontent.com/qontak-dev/docs/master/images/graph_customer_geolocation_map.gif)
+
+
+## Customer Sales Trends
+
+Graph Customer Sales Trends menampilkan data besaran Deal yang memiliki asosiasi dengan Company dan terkelompokkan berdasarkan bulan Deal tersebut dipindah ke stage Won. Graph ini memilki filter tambahan yaitu tahun dan nama Company. Graph ini ditampilkan dalam bentuk bar.
+
+Jika salah satu bar pada graph ini di-hover, akan tampil informasi periode dan total besaran Deal yang terasoiasi pada periode tersebut.
+
+![Image of customer geolocation map graph](https://raw.githubusercontent.com/qontak-dev/docs/master/images/graph_customer_sales_trends.gif)
