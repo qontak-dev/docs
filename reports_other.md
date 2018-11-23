@@ -1,7 +1,7 @@
 ---
 title: Other
 parent: Reports
-nav_order: 1
+nav_order: 6
 ---
 
 # Other

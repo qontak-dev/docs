@@ -1,7 +1,7 @@
 ---
 title: Targeting
 parent: Reports
-nav_order: 1
+nav_order: 2
 ---
 
 # Targeting

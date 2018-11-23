@@ -61,3 +61,11 @@ Grafik Lost Reasons menampilkan data Deals yang dikelompokkan berdasarkan Lost R
 Jika salah satu kelompok dari pie di-hover, muncul informasi cacah item dan persentase-nya terhadap keseluruhan grafik.
 
 ![Image of lost reasons graph](https://raw.githubusercontent.com/qontak-dev/docs/master/images/graph_lost_reason.gif)
+
+## Tasks
+
+Tasks menampilkan data Tasks dalam bentuk tabel. Informasi Task yang ditampilkan adalah nama Task, Item yang terasosiasi dengan Task tersebut, Status, Priority, dan Due Date-nya.
+
+Data Task ditampilkan dalam bentuk tabel yang dapat di-scroll ke bawah.
+
+![Image of tasks graph](https://raw.githubusercontent.com/qontak-dev/docs/master/images/graph_tasks.gif)

@@ -1,7 +1,7 @@
 ---
 title: Geographic
 parent: Reports
-nav_order: 1
+nav_order: 4
 ---
 
 # Geographic
