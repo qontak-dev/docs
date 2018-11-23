@@ -4,7 +4,7 @@ has_children: true
 nav_order: 2
 ---
 
-# Another page
+# Reports
 ![Image of dashboard index](https://raw.githubusercontent.com/qontak-dev/docs/master/images/dashboards_index.png)
 
 Grafik reports pada Qontak ditampilkan pada laman https://www.qontak.com/dashboards. Pada bagian atas, terdapat filter bar untuk memilih parameter-parameter apa saja yang akan diterapkan pada grafik yang sedang ditampilkan.
