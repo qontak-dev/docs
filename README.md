@@ -134,3 +134,13 @@ Ticketing menampilkan data Ticketing dalam bentuk tabel. Informasi Ticket yang d
 Data Ticket ditampilkan dalam bentuk tabel dan terbagi 5 Ticket per halaman tabel. Terdapat filter tambahan pada Ticketing yaitu Type, Priority, dan Status. Ikon item yang terasosiasi pada suatu Ticket dapat di-klik untuk menuju ke halaman item tersebut.
 
 ![Image of ticketing graph](https://raw.githubusercontent.com/qontak-dev/docs/master/images/graph_ticketing.gif)
+
+## Deals Won by User (Count)
+
+Graph Deals Won by User (Count) menampilkan data Count (cacah) Deal yang berada di Stage Won dan dikelompokkan berdasarkan User. Grafik ini ditampilkan dalam bentuk bar.
+
+Cacah Deal yang terhitung mengacu pada waktu di mana Deal tersebut dipindah ke stage Won. Contoh: Deal 1 dibuat pada tanggal 9 September 2018 lalu diubah ke stage Won pada tanggal 14 Nov 2018, maka Deal tersebut akan masuk ke total besaran deal untuk periode 14 Nov 2018.
+
+Jika salah satu bar di-hover, maka akan muncul informasi nama User dan cacah Deal yang berada pada Stage Won.
+
+![Image of deals won by user count graph](https://raw.githubusercontent.com/qontak-dev/docs/master/images/graph_deals_won_by_user.gif)
