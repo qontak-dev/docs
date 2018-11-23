@@ -1,7 +1,6 @@
 ---
 title: Trends
 parent: Reports
-has_children: true
 nav_order: 1
 ---
 
