@@ -14,7 +14,6 @@ Jika salah satu kelompok dari line di-hover, muncul informasi total besarnya Dea
 ![Image of sales performance graph](https://raw.githubusercontent.com/qontak-dev/docs/master/images/graph_sales_performance.gif)
 
 ## YTD Yearly Sales Comparison
-
 Grafik YTD Yearly Sales Comparison menampilkan total besaran Deals yang dikelompokkan berdasarkan tahun. Grafik yang ditampilkan berbentuk bar. Periode grafik ini tidak mengikuti filter waktu pada filter bar, namun memiliki periode khusus yaitu dari awal tahun hingga bulan saat grafik ditampilkan. Contoh apabila grafik ditampilkan tanggal 23 November 2018, maka periode nya adalah dari 1 Januari hingga 23 November tiap tahunnya.
 
 Jika salah satu bar pada grafik di-hover, muncul informasi periode dan total besaran Deal pada periode tersebut. Total besar Deal dikonversikan ke mata uang default yang dipilih user.
@@ -45,7 +44,6 @@ Jika salah satu kelompok dari grafik di-hover, muncul informasi cacah Deal, tota
 ![Image of deals by stage graph](https://raw.githubusercontent.com/qontak-dev/docs/master/images/graph_deals_by_stage.gif)
 
 ## Sources
-
 Grafik Sources menampilkan data Contacts, Companies, dan Deals yang dikelompokkan berdasarkan Source/Sumber. Grafik yang ditampilkan berbentuk pie. Jika ada Contact, Company, atau Deal yang tidak memiliki Source, maka akan dikelompokkan sebagai "Undefined Source". 
 
 Grafik Source untuk data Deals memiliki filter tambahan yaitu Stage.
@@ -55,7 +53,6 @@ Jika salah satu kelompok dari pie di-hover, muncul informasi cacah item dan pers
 ![Image of sources graph](https://raw.githubusercontent.com/qontak-dev/docs/master/images/graph_sources.gif)
 
 ## Lost Reasons
-
 Grafik Lost Reasons menampilkan data Deals yang dikelompokkan berdasarkan Lost Reason. Grafik yang ditampilkan berbentuk pie. Jika ada Deal yang tidak memiliki Lost Reason, maka akan dikelompokkan sebagai "Undefined Lost Reason". Deal yang masuk ke grafik ini adalah Deal yang berada di stage Lost.
 
 Jika salah satu kelompok dari pie di-hover, muncul informasi cacah item dan persentase-nya terhadap keseluruhan grafik.
@@ -63,7 +60,6 @@ Jika salah satu kelompok dari pie di-hover, muncul informasi cacah item dan pers
 ![Image of lost reasons graph](https://raw.githubusercontent.com/qontak-dev/docs/master/images/graph_lost_reason.gif)
 
 ## Tasks
-
 Tasks menampilkan data Tasks dalam bentuk tabel. Informasi Task yang ditampilkan adalah nama Task, Item yang terasosiasi dengan Task tersebut, Status, Priority, dan Due Date-nya.
 
 Data Task ditampilkan dalam bentuk tabel yang dapat di-scroll ke bawah.
