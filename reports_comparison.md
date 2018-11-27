@@ -24,6 +24,15 @@ Jika salah satu bar di-hover, maka akan muncul informasi nama User dan cacah Dea
 
 ![Image of deals won by user count graph](https://raw.githubusercontent.com/qontak-dev/docs/master/images/graph_deals_won_by_user.gif)
 
+## Sales Activity by User
+Graph Sales Activity by User menampilkan data Count (cacah) Notes, Calls, Emails, Tickets, Documents, dan Tasks yang dikelompokkan berdasarkan User. Grafik ini ditampilkan dalam bentuk bar.
+
+Jika salah satu bar di-hover, maka akan muncul informasi nama User, nama Item, dan cacah Item.
+
+Salah satu item dapat disembunyikan dan dimunculkan dengan klik tombol dengan warna dan nama Item di bagian bawah graph.
+
+![Image of sales activity by user graph](https://raw.githubusercontent.com/qontak-dev/docs/master/images/graph_sales_activity_by_user.gif)
+
 ## Tasks by Status
 Grafik Tasks by Status menampilkan data Tasks yang dikelompokkan berdasarkan User dan Status dari Task. Grafik yang ditampilkan berbentuk bar. Grafik ini memiliki filter tambahan yaitu Categories.
 
